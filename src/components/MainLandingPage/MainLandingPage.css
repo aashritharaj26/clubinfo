@@ -1,0 +1,90 @@
+.main{
+    height:100vh;
+    padding-top: 10px;
+    background-image: url(https://media.istockphoto.com/id/1141685241/vector/lines-composed-of-glowing-backgrounds-abstract-vector-background.jpg?s=2048x2048&w=is&k=20&c=GAGquJJ200K1WRIkNKlQYYda_5X5EJFTNdBfCzGTAR8=) ;
+}
+.logovnr{
+    width:7%;
+}
+.box{
+       display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height:400px;
+        width:60%;
+    margin: auto;
+    border-radius: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    backdrop-filter: blur(8.4px);
+    -webkit-backdrop-filter: blur(8.4px);
+    box-shadow: rgba(248, 213, 213, 0.35) 0px 5px 15px;
+    
+    }
+      .left {
+        flex: 50%;
+        padding-top: 3%;
+        padding-left: 9%;
+    color: aliceblue;
+       
+      }
+      .box2{
+        margin: 10%;
+      }
+      .right {
+        flex: 50%;
+    
+    
+    }
+    .pic{
+      width:90%;
+      height:60%; 
+      margin-top: 14%;
+    }
+    .box2{
+      width:80%;
+      height:80%;
+    }
+  
+    .u{
+      text-decoration: underline;
+      color:aqua;
+    }
+    button{
+      display:block;
+      margin:auto;
+      width:50%;
+      background-color: #0597aa;
+      border:2px solid black;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size:18px;
+      color:black;
+      margin-top: 10px;
+      cursor:pointer;
+    }
+    
+    
+
+    
+      @media (max-width: 1150px) {
+        .right, .left {
+          flex: 200%;
+        }
+        .box{
+            height: 760px;
+            flex-direction: row;
+        }
+       
+      }
+      @media (max-width: 680px) {
+        .right, .left {
+          flex: 200%;
+        }
+        .box{
+            height: 900px;
+            flex-direction: row;
+        }
+      }
